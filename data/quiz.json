@@ -1,0 +1,125 @@
+[
+  {
+    "id": 0,
+    "title": "Backend Quiz 1",
+    "questions": [
+      {
+        "index": 0,
+        "question": "What is NodeJs?",
+        "options": [
+          "A JavaScript runtime environment built on Chrome's V8 engine",
+          "A relational database management system",
+          "A client-side JavaScript framework",
+          "A backend framework for executing JavaScript code on the server"
+        ]
+      },
+      {
+        "index": 1,
+        "question": "Which of the following is NOT a feature of Node.js?",
+        "options": [
+          "Non-blocking, asynchronous I/O",
+          "Single-threaded event loop",
+          "Built-in support for multi-threading",
+          "Uses JavaScript as its programming language"
+        ]
+      },
+      {
+        "index": 2,
+        "question": "In Express.js, what is the role of middleware?",
+        "options": [
+          "Handle HTTP request and response cycles",
+          "Handle authentication and authorization",
+          "Process data before it is sent to the client",
+          "All of the above"
+        ]
+      }
+    ],
+    "answers": {
+      "0": 0,
+      "1": 2,
+      "2": 3
+    }
+  },
+  {
+    "id": 1,
+    "title": "Backend Quiz 2",
+    "questions": [
+      {
+        "index": 0,
+        "question": "What is the purpose of the `cluster` module in Node.js?",
+        "options": [
+          "To manage the routing of HTTP requests",
+          "To create child processes for parallel execution",
+          "To improve performance by creating multiple Node.js instances",
+          "To handle database clustering in NoSQL databases"
+        ]
+      },
+      {
+        "index": 1,
+        "question": "How can you handle errors in asynchronous code in Node.js?",
+        "options": [
+          "Using `try...catch` blocks around async functions",
+          "Using error-first callback patterns",
+          "Using promises with `.catch()` or `async/await` with `try...catch`",
+          "All of the above"
+        ]
+      },
+      {
+        "index": 2,
+        "question": "What is the role of `process.nextTick()` in Node.js?",
+        "options": [
+          "To execute code in the next iteration of the event loop",
+          "To delay the execution of a function by a set timeout",
+          "To schedule immediate execution of a function before I/O events",
+          "To block the event loop for synchronous code execution"
+        ]
+      }
+    ],
+    "answers": {
+      "0": 2,
+      "1": 3,
+      "2": 0
+    }
+  },
+  {
+    "id": 2,
+    "title": "Backend Quiz 3",
+    "questions": [
+      {
+        "index": 0,
+        "question": "How does the event loop work in Node.js?",
+        "options": [
+          "It processes all tasks synchronously",
+          "It processes asynchronous callbacks in multiple threads",
+          "It handles asynchronous operations using a single-threaded non-blocking architecture",
+          "It delegates tasks to worker threads by default"
+        ]
+      },
+      {
+        "index": 1,
+        "question": "What is the difference between `require` and `import` in Node.js?",
+        "options": [
+          "`require` is asynchronous while `import` is synchronous",
+          "`import` is used in CommonJS and `require` in ES Modules",
+          "`require` is used in CommonJS and `import` in ES Modules",
+          "Both are interchangeable in all Node.js versions"
+        ]
+      },
+      {
+        "index": 2,
+        "question": "Which of the following best describes streams in Node.js?",
+        "options": [
+          "A way to buffer large amounts of data before processing",
+          "An abstraction for working with asynchronous events",
+          "An efficient way to handle data that is read or written sequentially",
+          "A method for creating HTTP requests"
+        ]
+      }
+    ],
+    "answers": {
+      "0": 2,
+      "1": 2,
+      "2": 2
+    }
+  }
+]
